@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+html, body{
+    
+    background-color: lightgray;
+    color: white;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+header > h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    
+}
+
+i#burguer{
+    background-color: black;
+    color: white;
+    display: block;
+    text-align: left;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+i#burguer:hover{
+    background-color: white;
+    color: black;
+
+}
+
+menu{
+    background-color: white;
+    width: 20vw;
+    display: none;
+    position: relative;
+}
+menu > ul{
+    list-style-type: none; /*TIRA AS BOLINHA DA LISTA*/
+
+}
+menu > ul > li > a{
+    display: block;
+    background-color: gray;
+    padding: 3px;
+    color: white;
+    text-decoration: none;
+    border-top: 1px solid lightgray;
+}
+menu > ul > li > a:hover{
+    background-color: lightblue;    /*MUDA A COR DOS ITEMS AO PASSAR O MOUSE*/
+}
+
+main{
+    width: 90vw;
+    background-color: white;    /*COR DE FUNDO DO MAIN*/
+    margin: auto;       /*FAZ UMA MARGIN CENTRALIZANDO O MAIN NO CENTRO*/
+    margin-top: 10px; /*FAZ UM ESPAÇAMENTO EM CIMA DE 10PX*/
+    padding: 10px;     /*FAZ UM ESPAÇAMENTO INTERNO DE 10PX*/ 
+    border-radius: 10px; /*FAZ UMA BORDA DE 10PX NO MAIN*/
+}
+
+article > h2{
+    padding-bottom: 20px;   /*FAZ UM ESPAÇAMENTO INTERNO EM BAIXO 20PX*/
+    margin-bottom: 10px;    /*FAZ UMA MARGIN EM BAIXO 10PX*/
+    text-align: center;     /*CENTRALIZA O TEXTO NO CENTRO*/
+    text-indent: 20px;      /*DA O ESPAÇO NOS PARAGRAFOS*/
+
+}
+article > p{
+    text-align: justify;    /*DEIXA O TEXTO JUSTIFICADO, CENTRALIZADO*/
+    margin-bottom: 20px;
+    text-indent: 20px; /*DEIXA O TEXTO IDENTADO*/
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+}
