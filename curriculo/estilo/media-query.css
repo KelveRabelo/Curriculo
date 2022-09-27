@@ -11,19 +11,13 @@ Grandes Telas: acima de 1200px
 RECOMENDAÇÕES DO W3C
 */
 
-@media screen and (min-width: 768px)
-{
-    i#burger{
-        display: none;
-    }
-    menu{
-        display: block;
-    }
-    menu > ul > li{
-        display: inline-block;
-        border-radius: 10px;
-    }
-    main{
-        width: 768px;
-    }
+/*MINI*/
+
+:root {
+    --texto: white;
+    --fundo: purple;
+}
+
+
+
 }

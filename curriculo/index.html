@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="estilo/style.css">
     <link rel="stylesheet" href="estilo/media-query.css">
-    <title>Media Query</title>
-</head> 
-<body onresize="MudouTamanho"> <!--ONRESIZE vamos usar esse atributo para saber quando muda o tamanho da tela-->
-    <header>
-        <h1>KELVE RABELO</h1>
-       <i id="burguer"class="material-icons" onclick="clickMenu()">menu</i>
-       <menu id="menu">
-            <ul>
+    <link rel="stylesheet" href="estilo/style.css">
+    <title>Curriculo</title>
+</head>
+<body>
+    <header class="header">
+        <a href="/" class="logo">KELVE RABELO</a>
+        <nav class="nav">
+            <input type="checkbox" id="checkbox" class="checkbox"/>
+            <label for="checkbox" class="label-menu">Menu<span class="hambuguer"></span></label>
+            <ul class="menu">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Sobre</a></li>
                 <li><a href="#">Caracteristicas</a></li>
@@ -25,41 +25,7 @@
                 <li><a href="#">Projetos</a></li>
                 <li><a href="#">Contato</a></li>
             </ul>
-        </menu>
+        </nav>
     </header>
-    <main>
-        <article>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem quae quam dolorum facilis impedit enim quia minus est molestiae? Ea culpa doloremque enim iusto quam illo voluptatibus et assumenda rerum?</p>
-
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos maiores, deleniti cum velit exercitationem voluptates perspiciatis dicta sunt fugiat aliquam quod quasi sed harum odio et quam ab corporis. Aperiam.</p>
-
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam magnam harum natus tenetur mollitia ea? Consectetur eum sint aliquid dolorem necessitatibus nesciunt ut doloribus reprehenderit. Quae id nihil repellendus nam!</p>
-        </article>
-    </main>
-    <script>
-        function MudouTamanho()
-        {
-            if (window.innerWidth >= 768)
-            {
-                menu.style.display = 'block'
-            }
-            else
-            {
-                menu.style.display = 'none'
-            }
-        }
-        function clickMenu()
-        {
-            if (menu.style.display == 'block')
-            {
-                menu.style.display = 'none'
-            }
-            else
-            {
-                menu.style.display = 'block'
-            }
-        }
-    </script>
 </body>
-<footer>Copyright (c) 2022 Kelve Rabelo</footer>
 </html>
