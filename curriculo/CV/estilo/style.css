@@ -28,7 +28,7 @@ header input {
     margin: 0;
     padding: 0;
 }
-.navbar div {
+.navbar span {
     background-color: white;
     width: 30px;
     height: 6px;
@@ -87,23 +87,44 @@ footer {
 }
 /***************************/
 
-label.check-menu > div:nth-child(1){
+label {
+    display: block;
+    cursor: pointer;
+    position: relative;
+    width: 30px;
+    height: 22px;
+    margin-left: 5px;
+
+
+}
+label > span {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    border-radius: 30px;
+    background-color: black;
+    transition: 0.25 ease-in-out;
+
+}
+label > span:nth-child(1) {
     top: 0px;
 }
-label.check-menu > div:nth-child(2){
+label > span:nth-child(2) {
     top: 8px;
 }
-label.check-menu > div:nth-child(3){
+label > span:nth-child(3) {
     top: 16px;
 }
-#check-menu:checked + label.sidebar-btn div:nth-child(1) {
+#checkbox-menu:checked + label span:nth-child(1) {
     transform: rotate(-45deg);
     top: 8px;
 }
-#check-menu:checked + label.sidebar-btn div:nth-child(2) {
+#checkbox-menu:checked + label span:nth-child(2) {
     opacity: 0;
+
 }
-#check-menu:checked + label.sidebar-btn div:nth-child(3) {
+#checkbox-menu:checked + label span:nth-child(3) {
     transform: rotate(45deg);
     top: 8px;
 }
