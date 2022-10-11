@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+/* Typical Defice Breakpoints
+
+Mini Telas: até 600px
+Celular: de 600px até 768px
+Tablet: de 768px até 992px
+Desktop: de 992px até 1200px
+Grandes Telas: acima de 1200px
+
+RECOMENDAÇÕES DO W3C
+*/
+
+/* Mini: 600px */
+@media print{
+    * {
+        font-family: monospace;
+    }
+}
+
+
+
+
+
+
+
+
+/* Celula 600px / 768px */
+@media screen and (min-width: 600px) and (max-width: 768px){
+    /**********BARRA LATERAL VERIFICADA*********/
+    #check:checked ~ .sidebar {
+        left: -20%;
+    }
+    #check:checked ~ .sidebar a {
+        font-size: 22px;
+        margin-left: 68%;
+        width: 48px;
+    }
+    /**********CONTEÚDO PRINCIPAL*********/
+    .content {
+        width: 74vw;
+        margin-left: 26vw;
+        height: 100vh;
+    }
+}
+
+
+
+
+
+
+/* Tablet 768px / 992px */
+@media screen and (min-width: 768px) and (max-width: 992px){
+    /**********BARRA LATERAL*********/
+    .sidebar .imagem {
+        margin-top: -70px;
+    }
+    .sidebar a {
+        padding-top: 12px;
+        font-size: 1.3em;
+    }
+    /**********BARRA LATERAL VERIFICADA*********/
+    #check:checked ~ .sidebar {
+        left: -20%;
+    }
+    #check:checked ~ .sidebar a {
+        width: 49px;
+        margin-left: 73%;
+        font-size: 2em;
+    }
+    /**********CONTEÚDO PRINCIPAL*********/
+    .content {
+        font-size: 1.3em;
+    }
+}
+
+
+
+
+
+/* Desktop: de 992px até 1200px */
+@media screen and (min-width: 992px) and (max-width: 1200px){
+   /**********BARRA LATERAL*********/
+   .sidebar .imagem {
+    margin-top: -80px;
+}
+   .sidebar a {
+    padding-top: 14px;
+    font-size: 1.5em;
+}
+/**********BARRA LATERAL VERIFICADA*********/
+#check:checked ~ .sidebar {
+    left: -20%;
+}
+#check:checked ~ .sidebar a {
+    width: 49px;
+    margin-left: 76%;
+    font-size: 2.2em;
+}
+/**********CONTEÚDO PRINCIPAL*********/
+.content {
+    font-size: 1.5em;
+}
+}
+
+
+
+
+
+/* Telas Grandes acima 1200px*/
+@media screen and (min-width: 1200px){
+    /**********BARRA LATERAL*********/
+    .sidebar {
+        width: 24%;
+        font-size: 1.2em;
+    }
+    .sidebar .imagem {
+        margin-top: -100px;
+    }
+    .sidebar a {
+        padding-top: 25px;
+    }
+    /**********BARRA LATERAL VERIFICADA*********/
+    #check:checked ~ .sidebar {
+        width: 30%;
+    }
+    #check:checked ~ .sidebar a {
+        font-size: 3em;
+        padding: 0;
+
+    }
+
+    /**********CONTEÚDO PRINCIPAL*********/
+    .content {
+        width: 78vw;
+        margin-left: 24%;
+        font-size: 2em;
+    }
+    /**********CONTEÚDO PRINCIPAL VERIFICADO*********/
+    #check:checked ~ .content {
+        width: 90vw;
+        margin-left: 10%;
+        font-size: 2em;
+    }
+    
+}
