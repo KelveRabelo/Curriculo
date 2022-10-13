@@ -75,8 +75,8 @@ label.sidebar-btn > span:nth-child(3) {
     height: 100vh;
     margin-top: 5.1vh;
     background-color: rgba(46, 49, 45);
-/*    border-right: 4px  rgb(61, 185, 92) solid;*/
-    border-right: 4px rgb(61, 185, 92) solid;
+    /*border-right: 4px  rgb(61, 185, 92) solid;*/
+    border-right: 4px rgb(185, 61, 129) solid;
 
 }
 .sidebar .imagem {
