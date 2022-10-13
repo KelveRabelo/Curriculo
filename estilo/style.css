@@ -75,7 +75,7 @@ label.sidebar-btn > span:nth-child(3) {
 
 /**********BARRA LATERAL**********/
 .sidebar {
-    width: 26%;
+    width: 40%;
     height: 100vh;
     padding-top: 10%;
     position: absolute;
@@ -111,8 +111,8 @@ label.sidebar-btn > span:nth-child(3) {
 
 /**********CONTEÚDO PRINCIPAL*********/
 .content {
-    width: 74vw;
-    margin-left: 26vw;
+    width: 60%;
+    margin-left: 40%;
     height: 100vh;
     padding: 5%;
     border: 2px solid white;
