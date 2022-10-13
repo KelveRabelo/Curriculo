@@ -11,7 +11,9 @@ Grandes Telas: acima de 1200px
 RECOMENDAÇÕES DO W3C
 */
 
-/* Mini: 600px */
+/******************************************************/
+            /*IMPRESSPORA*/
+/******************************************************/
 @media print{
     * {
         font-family: monospace;
@@ -25,107 +27,115 @@ RECOMENDAÇÕES DO W3C
 
 
 
-/* Celula 600px / 768px */
+
+
+
+
+/******************************************************/
+            /*CELULAR: 600PX ATÉ 768PX*/
+/******************************************************/
 @media screen and (min-width: 600px) and (max-width: 768px){
-    /**********BARRA LATERAL VERIFICADA*********/
+/**********BARRA LATERAL*********/
 
-}
-
-
-
-
-/* Tablet 768px / 992px */
-@media screen and (min-width: 768px) and (max-width: 992px){
-    /**********BARRA LATERAL*********/
-    .sidebar .imagem {
-        margin-top: -70px;
-    }
-    .sidebar a {
-        padding-top: 12px;
-        font-size: 1.3em;
-    }
-    /**********BARRA LATERAL VERIFICADA*********/
-    #check:checked ~ .sidebar {
-        left: -20%;
-    }
-    #check:checked ~ .sidebar a {
-        width: 49px;
-        margin-left: 73%;
-        font-size: 2em;
-    }
-    /**********CONTEÚDO PRINCIPAL*********/
-    .content {
-        font-size: 1.3em;
-    }
-}
-
-
-
-
-
-/* Desktop: de 992px até 1200px */
-@media screen and (min-width: 992px) and (max-width: 1200px){
-   /**********BARRA LATERAL*********/
-   .sidebar .imagem {
-    margin-top: -80px;
-}
-   .sidebar a {
-    padding-top: 14px;
-    font-size: 1.5em;
-}
 /**********BARRA LATERAL VERIFICADA*********/
-#check:checked ~ .sidebar {
-    left: -20%;
-}
-#check:checked ~ .sidebar a {
-    width: 49px;
-    margin-left: 76%;
-    font-size: 2.2em;
-}
+
 /**********CONTEÚDO PRINCIPAL*********/
-.content {
-    font-size: 1.5em;
+
+/**********CONTEÚDO PRINCIPAL VERIFICADO*********/
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************************************/
+            /*TABLET: 768PX ATÉ 992PX*/
+/******************************************************/
+@media screen and (min-width: 768px) and (max-width: 992px){
+/**********BARRA LATERAL*********/
+
+/**********BARRA LATERAL VERIFICADA*********/
+
+/**********CONTEÚDO PRINCIPAL*********/
+
+/**********CONTEÚDO PRINCIPAL VERIFICADO*********/
 }
 
 
 
 
 
-/* Telas Grandes acima 1200px*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************************************/
+            /*DESKTOP: 992PX ATÉ 1200PX*/
+/******************************************************/
+@media screen and (min-width: 992px) and (max-width: 1200px){
+/**********BARRA LATERAL*********/
+
+/**********BARRA LATERAL VERIFICADA*********/
+
+/**********CONTEÚDO PRINCIPAL*********/
+
+/**********CONTEÚDO PRINCIPAL VERIFICADO*********/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************************************/
+            /*TELAS GRANDES ACIMA DE 1200PX*/
+/******************************************************/
 @media screen and (min-width: 1200px){
-    /**********BARRA LATERAL*********/
-    .sidebar {
-        width: 24%;
-        font-size: 1.2em;
-    }
-    .sidebar .imagem {
-        margin-top: -100px;
-    }
-    .sidebar a {
-        padding-top: 25px;
-    }
-    /**********BARRA LATERAL VERIFICADA*********/
-    #check:checked ~ .sidebar {
-        width: 30%;
-    }
-    #check:checked ~ .sidebar a {
-        font-size: 3em;
-        padding: 0;
+/**********BARRA LATERAL*********/
 
-    }
+/**********BARRA LATERAL VERIFICADA*********/
 
-    /**********CONTEÚDO PRINCIPAL*********/
-    .content {
-        width: 78vw;
-        margin-left: 24%;
-        font-size: 2em;
-    }
-    /**********CONTEÚDO PRINCIPAL VERIFICADO*********/
-    #check:checked ~ .content {
-        width: 90vw;
-        margin-left: 10%;
-        font-size: 2em;
-    }
-    
+/**********CONTEÚDO PRINCIPAL*********/
+
+/**********CONTEÚDO PRINCIPAL VERIFICADO*********/
 }
