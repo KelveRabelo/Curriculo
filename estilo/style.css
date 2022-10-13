@@ -90,12 +90,13 @@ label.sidebar-btn > span:nth-child(3) {
     display: block;
     color: white;
     padding-left: 20px;
-    font-size: 0.9em;
+    font-size: 1em;
     line-height: 2.5em;
 }
 .sidebar a:hover {
     background-color: rgb(61, 185, 92);
     border-radius: 50px;
+    line-height: 1.5em;
 }
 
 /**********CONTEÚDO PRINCIPAL*********/
