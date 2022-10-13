@@ -56,7 +56,7 @@ label.sidebar-btn > span:nth-child(3) {
 
 /**********TITULO**********/
 .nome {
-    margin: 0;
+    margin-top: 0.5px;
     font-size: 24px;
     font-weight: bolder;
 }
@@ -75,8 +75,8 @@ label.sidebar-btn > span:nth-child(3) {
     height: 100vh;
     margin-top: 5.1vh;
     background-color: rgba(46, 49, 45);
-    /*border-right: 4px  rgb(61, 185, 92) solid;*/
-    border-right: 4px rgb(185, 61, 129) solid;
+    border-right: 4px  rgba(61, 185, 92, 0.63) solid;
+    /*border-right: 4px rgb(185, 61, 129) solid;*/
 
 }
 .sidebar .imagem {
@@ -91,7 +91,7 @@ label.sidebar-btn > span:nth-child(3) {
     color: white;
     padding-left: 20px;
     font-size: 0.9em;
-    line-height: 2em;
+    line-height: 2.5em;
 }
 .sidebar a:hover {
     background-color: rgb(61, 185, 92);
