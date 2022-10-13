@@ -151,14 +151,14 @@ footer {
 }
 /*************************************************************/
 /**********VERIFICA SE O MENU FOI CLICADO E ARRASTA A BARRA LATERAL*********/
+
 #check:checked ~ .sidebar {
-    left: -20%;
-    border-top-left-radius: 2px;
+    width: 10%;
+    left: 0%;
 }
 #check:checked ~ .sidebar a {
     font-size: 22px;
-    margin-left: 64%;
-    width: 60px;
+    margin-left: 0%;
 }
 #check:checked ~ .sidebar a span {
     display: none;
@@ -173,8 +173,9 @@ footer {
 
 /**********CONTEÚDO PRINCIPAL*********/
 #check:checked ~.content {
-        width: 94vw;
-        margin-left: 6vw;
+        width: 90%;
         height: 100vh;
+        margin-left: 10%;
+
     }
 /*************************************************************/
