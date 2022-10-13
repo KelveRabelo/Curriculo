@@ -56,6 +56,7 @@ label.sidebar-btn > span:nth-child(3) {
 
 /**********TITULO**********/
 .nome {
+    margin-top: 2px;
     font-size: 24px;
     font-weight: bolder;
 }
@@ -70,7 +71,7 @@ label.sidebar-btn > span:nth-child(3) {
 /**********BARRA LATERAL**********/
 .sidebar {
     position: fixed;
-    width: 40%;
+    width: 45%;
     height: 100vh;
     margin-top: 5.1vh;
     background-color: rgba(46, 49, 45);
@@ -79,18 +80,18 @@ border-right: 4px  red solid;
 
 }
 .sidebar .imagem {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     border-radius: 100px;
-    margin-left: 20%;
+    margin-left: 15%;
     overflow: hidden;
 }
 .sidebar a {
     display: block;
     color: white;
     padding-left: 20px;
-    font-size: 1em;
-    line-height: 2.5em;
+    font-size: 0.9em;
+    line-height: 2em;
 }
 .sidebar a:hover {
     background-color: rgb(61, 185, 92);
@@ -99,10 +100,10 @@ border-right: 4px  red solid;
 
 /**********CONTEÚDO PRINCIPAL*********/
 .content {
-    width: 60%;
+    width: 55%;
     height: 100vh;
     margin-top: 0px;
-    margin-left: 40%;
+    margin-left: 45%;
     padding: 5%;
     padding-top: 10%;
     background-color: rgba(46, 49, 45);
