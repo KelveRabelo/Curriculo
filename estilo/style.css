@@ -153,12 +153,11 @@ footer {
 /**********VERIFICA SE O MENU FOI CLICADO E ARRASTA A BARRA LATERAL*********/
 
 #check:checked ~ .sidebar {
-    width: 10%;
-    left: 0%;
+    width: 14%;
 }
 #check:checked ~ .sidebar a {
     font-size: 22px;
-    margin-left: 0%;
+    padding-left: 40%;
 }
 #check:checked ~ .sidebar a span {
     display: none;
@@ -173,9 +172,9 @@ footer {
 
 /**********CONTEÚDO PRINCIPAL*********/
 #check:checked ~.content {
-        width: 90%;
+        width: 86%;
         height: 100vh;
-        margin-left: 10%;
+        margin-left: 14%;
 
     }
 /*************************************************************/
