@@ -21,7 +21,6 @@ header {
     display: flex;
     position: fixed;
     justify-content: flex-start;
-    padding: 6px;
     background-color: white;
 }
 /*************************************************************/
@@ -75,27 +74,27 @@ label.sidebar-btn > span:nth-child(3) {
     height: 100vh;
     margin-top: 5.1vh;
     background-color: rgba(46, 49, 45);
-    border-right: 4px  rgb(61, 185, 92) solid;
+/*    border-right: 4px  rgb(61, 185, 92) solid;*/
+border-right: 4px  red solid;
 
 }
 .sidebar .imagem {
     width: 120px;
     height: 120px;
     border-radius: 100px;
-    margin-left: 25%;
+    margin-left: 20%;
     overflow: hidden;
 }
 .sidebar a {
     display: block;
     color: white;
-    width: 100%;
-    line-height: 2.5em;
     padding-left: 20px;
-    font-size: 20px;
+    font-size: 1em;
+    line-height: 2.5em;
 }
 .sidebar a:hover {
     background-color: rgb(61, 185, 92);
-    border-radius: 14px;
+    border-radius: 50px;
 }
 
 /**********CONTEÚDO PRINCIPAL*********/
@@ -109,7 +108,7 @@ label.sidebar-btn > span:nth-child(3) {
     background-color: rgba(46, 49, 45);
     text-indent: 30px;
     text-align: justify;
-    font-size: 1.4em;
+    font-size: 1em;
     line-height: 2em;
 }
 /*************************************************************/
@@ -144,7 +143,7 @@ footer {
 /**********VERIFICA SE O MENU FOI CLICADO E ARRASTA A BARRA LATERAL*********/
 
 #check:checked ~ .sidebar {
-    width: 14%;
+    width: 15%;
     padding-top: 10%;
 }
 #check:checked ~ .sidebar a {
@@ -164,9 +163,9 @@ footer {
 
 /**********CONTEÚDO PRINCIPAL*********/
 #check:checked ~.content {
-        width: 86%;
+        width: 85%;
         height: 100vh;
-        margin-left: 14%;
+        margin-left: 15%;
 
     }
 /*************************************************************/
