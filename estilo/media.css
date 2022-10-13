@@ -28,18 +28,8 @@ RECOMENDAÇÕES DO W3C
 /* Celula 600px / 768px */
 @media screen and (min-width: 600px) and (max-width: 768px){
     /**********BARRA LATERAL VERIFICADA*********/
-    #check:checked ~ .sidebar {
 
-    }
-    #check:checked ~ .sidebar a {
-
-    /**********CONTEÚDO PRINCIPAL*********/
-    .content {
-
-    }
 }
-
-
 
 
 
