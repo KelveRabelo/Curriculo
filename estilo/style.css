@@ -56,7 +56,7 @@ label.sidebar-btn > span:nth-child(3) {
 
 /**********TITULO**********/
 .nome {
-    margin-top: 1px;
+    margin-top: 5px;
     font-size: 22px;
     font-weight: bolder;
 }
@@ -75,7 +75,7 @@ label.sidebar-btn > span:nth-child(3) {
     height: 100vh;
     margin-top: 5.1vh;
     background-color: rgba(46, 49, 45);
-    border-right: 4px rgba(125, 156, 124, 0.63) solid;
+    border-right: 4px rgb(151, 216, 148) solid;
 
 
 }
